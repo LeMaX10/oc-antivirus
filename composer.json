@@ -1,0 +1,24 @@
+{
+    "name": "lemax10/oc-antivirus",
+    "type": "october-plugin",
+    "description": "Simple OctoberCMS Antivirus",
+    "keywords": ["october", "cms", "antivirus", "plugin"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "VladimirPyankov",
+            "email": "vladimir@pyankov.pro",
+            "role": "Co-founder"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "composer/installers": "~1.0",
+        "lemax10/laravel-enums": "~1.4.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "LeMaX10\\Antivirus\\": ""
+        }
+    }
+}
